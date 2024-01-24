@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+/* top nav */
+.top-nav{
+    background-color: #5f7775;
+    color: #fff;
+    padding: 1.5rem 1rem;
+}
+h6{
+    font-size: 1.2rem !important;
+}
+/* hero section */
+.hero-section{
+    padding: 6rem 0;
+    background: url(../images/home-security-safe.webp) no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+}
+.hero-section h1{
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.hero-section p{
+    font-size: 17px;
+}
+.hero-content-next{
+    padding: 2rem 1rem;
+    border-radius: .375rem; 
+    box-shadow: 3px 5px 13px hsla(0,0%,61%,.3) !important;
+}
+.hero-btn a{
+    background: #ff8200;
+    color: #fff;
+    font-weight: bold;
+    padding: .4rem 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 50px;
+    transition: .3s;
+    width: auto;
+}
+.hero-btn a i:hover{
+    color: #999;
+}
+.hero-btn a:hover{
+    background: #fd9a2f;
+    border-color: #ff8200;
+    color: #000;
+}
+.hero-btn .get-btn{
+    color: #fff !important;
+    transition: .3s;
+
+}
+.hero-btn .get-btn:hover{
+    color: #000 !important;
+}
+.hero-content-last{
+    background-image: radial-gradient( circle at center, #5f7775 0%, #9fc1c9 100% );
+    padding: 3rem 3rem;
+    border-radius: 1rem;
+}
+
+/* section 2 */
+.section-2 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    
+}
+.section-2 .row{
+    border-radius: .375rem !important;
+    box-shadow: 3px 10px 13px hsla(0,0%,61%,.3) !important;   
+}
+.section-2 p{
+    padding-bottom: 1rem;
+}
+
+.section-2 .section2-top {
+    background: url(../images/vivint-smart-hub-installed-on-a-wall.jpg-818x1024.webp) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+}
+.section-2 .section2-top2{
+    background-color: #d8dddf;
+    border-top-right-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+.section-2 .section2-middle{
+    background: url(../images/door-Bell-camera-Install.jpg-921x1024.webp) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+}
+.section-2 .section2-middle2{
+    background-color: #d8dddf;
+    border-top-right-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+.section-2 .section2-bottom{
+    background: url(../images/vivint-247-professional-monitoring-woman.jpeg) no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    border-top-left-radius: .375rem;
+    border-bottom-left-radius: .375rem;
+}
+.section-2 .section2-bottom2{
+    background-color: #d8dddf;
+    border-top-right-radius: .375rem;
+    border-bottom-right-radius: .375rem;
+}
+/* section 3 */
+
+.section-3{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+
+}
+.section3-content{
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    border-radius: 15px;
+}
+
+.hero-btn .get-btn{
+    padding: .5rem 3rem;
+    font-size: 1.2rem;
+}
+/* section 4 */ 
+.section-4{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #ebebeb;
+  }
+  .section-4 img{
+    border-radius: 15px;
+  }
+
+/* footer */
+footer {
+    background: #d8dddf;
+    color: #000;
+    padding: 3rem 2rem;
+}
+footer .col-md-8 p{
+    color: #000;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: .5rem .6rem;
+    color: #fd9a2f;
+}
+@media screen and (max-width: 1200px){
+ .hero-btn .get-btn{
+    font-size: 1.3rem;
+ }
+ .hero-section .hero-content{
+    width: 100% !important;
+
+ }
+ .hero-section .hero-content h1{
+    font-size: 3rem;
+ }
+ .hero-section .hero-content h3{
+    font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width: 992px){
+    .section-2 h5{
+        font-size: 1rem;
+    }
+    nav .hero-btn{
+        padding-left: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-btn a{
+        font-size: 1.1rem !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 1.8rem;
+    }
+   .hero-btn a{
+        font-size: 1.2rem;
+        padding: .5rem 1.5rem !important;
+    }
+    .section4-btn a{
+        font-size: 1rem;
+        line-height: 2.4rem;
+    }
+   .section-2 .section2-top{
+    height: 40vh;
+    border-radius: 0 !important;
+    border-top-left-radius: .375rem !important;
+    border-top-right-radius: .375rem !important;
+   }
+   .section-2 .section2-middle{
+    height: 40vh;
+    border-radius: 0 !important;
+    border-top-left-radius: .375rem !important;
+    border-top-right-radius: .375rem !important;
+   }
+   .section-2 .section2-bottom{
+    height: 40vh;
+    border-radius: 0 !important;
+    border-top-left-radius: .375rem !important;
+    border-top-right-radius: .375rem !important;
+   }
+   .section-2 .section2-top2{
+    border-radius: 0 !important;
+    border-bottom-left-radius: .375rem !important;
+    border-bottom-right-radius: .375rem !important;
+}
+.section-2 .section2-middle2{
+    border-radius: 0 !important;
+    border-bottom-left-radius: .375rem !important;
+    border-bottom-right-radius: .375rem !important;
+}
+.section-2 .section2-bottom2{
+    border-radius: 0 !important;
+    border-bottom-left-radius: .375rem !important;
+    border-bottom-right-radius: .375rem !important;
+}
+.section-3 h1{
+    padding-top: 2rem;
+   }
+
+}
+
+@media screen and (max-width: 500px){
+    .hero-btn .get-btn{
+        font-size: 1rem;
+     }
+     .hero-section .hero-content h1{
+        font-size: 2rem;
+     }
+     .hero-section .hero-content h3{
+        font-size: 1.2rem;
+     }
+     .hero-content-last h1{
+        font-size: 1.5rem;
+     }
+}
+@media screen and (max-width: 320px){
+    .section4-btn a{
+        font-size: .6rem;
+    }
+}
